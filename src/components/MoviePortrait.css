@@ -1,0 +1,19 @@
+.movie-portrait{
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-portrait img{
+    width: 150px;
+    height: 150px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 0.8rem;
+}
+
+.movie-portrait img:hover{
+    transform: scale(1.1);
+}
