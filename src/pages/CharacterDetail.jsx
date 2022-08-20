@@ -23,7 +23,7 @@ const CharacterDetail = () => {
       {character !== undefined ? (
         <>
           <h2>{character.name}</h2>
-          <img src={character.image} alt={character.name} />
+          <img src={character.image} alt={character.name} referrerPolicy="no-referrer"/>
           <h3>{character.role}</h3>
           <h3>{character.origin}</h3>
           <p>{character.description}</p>
