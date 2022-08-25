@@ -6,7 +6,7 @@ const CharacterPortait = ({ character }) => {
   return (
     <Link to={`/characters/${character._id}`}>
       <figure className="character-portrait">
-        <img src={character.portrait} alt={character.name} />
+        <img src={character.portrait} alt={character.name} referrerPolicy="no-referrer" />
       </figure>
     </Link>
   );
